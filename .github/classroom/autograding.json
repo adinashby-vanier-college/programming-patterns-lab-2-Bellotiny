@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "averageValueTest1",
+      "setup": "gradle clean",
+      "run": "gradle test --tests LabTwoTests.averageValueTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "convertToUpperCaseTest1",
+      "setup": "",
+      "run": "gradle test --tests LabTwoTests.convertToUpperCaseTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "filterStringsTest1",
+      "setup": "",
+      "run": "gradle test --tests LabTwoTests.filterStringsTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "commaSeparatedStringsTest1",
+      "setup": "",
+      "run": "gradle test --tests LabTwoTests.commaSeparatedStringsTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
